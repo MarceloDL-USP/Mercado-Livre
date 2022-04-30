@@ -21,4 +21,4 @@ TRAINNG_DATA_PERCENTAGE_3 = 0.8
 TEST_DATA_PERCENTAGE_3 = 0.1
 PLOT_ACF_LAGS_3 = 4
 PLOT_PACF_LAGS_3 = 4
-LAG_REDUCTION_FACTOR_3 = 1 # para lidar com seguinte problema ValueError: Length of endogenous variable must be larger the the number of lags used in the model and the number of observations burned in the log-likelihood calculation.
+LAG_REDUCTION_FACTOR_3 = 0.25 # para lidar com seguinte problema ValueError: Length of endogenous variable must be larger the the number of lags used in the model and the number of observations burned in the log-likelihood calculation.
